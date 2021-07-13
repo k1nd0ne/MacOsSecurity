@@ -45,7 +45,7 @@ When installing scudo, it'll ask you wich policy you want to use for inbound and
 
 I'm not using spotlight for googleing and I don't want Siri's suggestions so it's disabled by default. 
 Keep in mind that what is not authorized should be always blocked.
-**Some services and applications need to communicate over the network be aware when you are blocking such comminications**
+**Some services and applications need to communicate over the network be aware when you are blocking such communications**
 
 Scudo is very easy to use, you can use it for free but you'll have a regular popup asking you buy the licence if you like the product. I recommend buying it to help the creator.
 
