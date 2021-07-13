@@ -1,7 +1,6 @@
 # MacOs Hardening guide
 
 Author : k1nd0ne
-Version : Mac Os BigSur 11.4
 Last Update : 13/07/2021
 
 ## Introduction
