@@ -8,7 +8,7 @@ If you are working with confidential data or just worry about your local data pr
 Having your machine stolen or hacked can happend and you should be prepared to be resilient to this kind of threats. Having a good education about the security risk is a big asset,
 however, 0day vulnerabilities are often discovered and having your machine stolen can expose your data from personal data to work related data.
 
-This guide is made to improve your personnal privacy on MacOs Operating system giving you an overview of the features you can implement to harden your operating system and have a stronger, healther and more secure environement.
+This guide is made to improve your personnal privacy on MacOs Operating system giving you an overview of the features you can implement to harden your machine and have a stronger, healther and more secure environement.
 
 Obviously a 100% secure systems doesn't exist but if you already have a good understanding of cybersecurity risks and want to take a step futher into hardening your personal system then this guide is made for you !
 
