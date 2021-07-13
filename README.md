@@ -30,7 +30,7 @@ Take a moment to read the script and be aware about what features will be enable
 
 ### Setting up a Firmware password
 We booting your system it is possible to use the MacOs firmware to boot on a usb stick for example or enter the recovery mode to format your data / reinstall mac os. 
-Setting a Firmware password different from your session password prevent intruder from using this firmware with malicious intentions.
+Setting a Firmware password different from your session password prevent intruder from using this firmware with malicious intentions. See : https://support.apple.com/en-au/HT204455
 
 
 ## Harding Apps
