@@ -23,19 +23,19 @@ In this section I will walk you thought the features you can enable to harden yo
 
 ### MacOs Hardening Script (MHS.sh) 
 In this repository you will find a script named MHS.sh it contains a number of features you can enable to harden your system.
-Take a moment to read the script and be aware about what features will be enable. This script automate the activation of the following 
-- FileVault : Enable Disk Encryption : your disk will be encrypted and unreable wihtout a password at boot.
-- FileVault Eviction : A malicious person can dump your computer sleep memory and recover the filevault password. Prevent that by evicting it from the memory.
-- Power management policies : MacOs is by default proposing several powermanagement features, those should be disables to prevent attacks using thoses mechanisms
+Take a moment to read the script and be aware about what features will be enable. This script automate the activation of the following :
+- FileVault : Enable Disk Encryption : your disk will be encrypted and unreable without a password at boot;
+- FileVault Eviction : A malicious attacker can dump your computer sleep memory and recover the filevault password. Prevent that by evicting it from the memory;
+- Power Management Policies : MacOs is by default proposing several powermanagement features, those should be disables to prevent hardware attacks using thoses mechanisms.
 
 ### Setting up a Firmware password
-We booting your system it is possible to use the MacOs firmware to boot on a usb stick for example or enter the recovery mode to format your data / reinstall mac os. 
-Setting a Firmware password different from your session password prevent intruder from using this firmware with malicious intentions. See : https://support.apple.com/en-au/HT204455
+We booting your system it is possible to use the MacOs firmware to boot on a usb stick for example or enter the recovery mode to format your data / re-install mac os. 
+Setting a firmware password different from your session password, prevent intruder from using this firmware with malicious intentions. See : https://support.apple.com/en-au/HT204455
 
 
 ## Harding Apps
 
-In this section I will go thought the application that I recommend using to harden your MacOs clean installation.
+In this section I will go thought the applications that I recommend using to harden your MacOs clean installation.
 
 ### Scudo
 
@@ -47,13 +47,13 @@ I'm not using spotlight for googleing and I don't want Siri's suggestions so it'
 Keep in mind that what is not authorized should be always blocked.
 **Some services and applications need to communicate over the network be aware when you are blocking such communications**
 
-Scudo is very easy to use, you can use it for free but you'll have a regular popup asking you buy the licence if you like the product. I recommend buying it to help the creator.
+Scudo is very easy to use, you can download for free but you'll have regular popups asking you buy the licence if you like the product. I recommend buying it to help the creator.
 
 You can download scudo here : https://www.murusfirewall.com/scudo/
 
 ### Bitwarden
 Bitwarden is an opensource password manager. Having strong passwords and different for every services you own is the key to prevent your data from being stolen. I personnaly like bitwarden for its security, portability and the fact that it is opensource. 
-You can obviously use anypassword manager you want. You can download bitwarden here : https://bitwarden.com/
+You can obviously use any password manager you want. You can download bitwarden here : https://bitwarden.com/
 
 ### Browsing the internet
 Hardening your web-browser is important to have better privacy and preventing dataleaks.
@@ -61,7 +61,7 @@ Here is a few extension you can use :
 - Duckduckgo : A browser that respect your privacy
 - Ublock : Add-Blocker
 - HTTPSEverywhere : Force websites to use https when possible.
-- Bitwarden : previously mentioned password manager extension. 
+- Bitwarden : previously mentioned password manager web extension. 
 
 I Also recommand customizing your browser to not save cookies and history and configure it to be in private mode by default. 
 
@@ -69,7 +69,7 @@ For more privacy you can also use TOR browser or a VPN solution.
 
 ## Backups 
 
-MacOS is becoming more and more intgrated with iCloud, which is generally a greatconvenience to normal users, but perceived as a potential data leak in some cases. You  should use an external encrypted hard drive time make regular backups with  **Time Machine**. I recommand when setting up your clean MacOs to do a backup wich will act as a "snapshot" of your operating system default configuration. With this you won't have to reinstall all your apps and rebuild your Scudo rules for example. 
+MacOS is becoming more and more intgrated with iCloud, which is generally a greatconvenience to normal users, but perceived as a potential data leak in some cases. You  should use an external encrypted hard drive time make regular backups with  **Time Machine**. I recommend when setting up your clean MacOs to do a backup which will act as a "snapshot" of your operating system default configuration. With this you won't have to reinstall all your apps and rebuild your Scudo rules for example. 
 
 
 ## Going further 
