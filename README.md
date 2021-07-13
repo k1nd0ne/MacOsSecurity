@@ -1,6 +1,6 @@
 # MacOs Hardening guide
 
-Author : k1nd0ne
+Author : k1nd0ne </br>
 Last Update : 13/07/2021
 
 ## Introduction
