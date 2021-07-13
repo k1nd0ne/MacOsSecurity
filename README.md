@@ -39,7 +39,7 @@ In this section I will go thought the applications that I recommend using to har
 
 ### Scudo
 
-Scudo is a free firewall, it helps protect your Mac computer’s network services from unwanted connections from remote computers and improves your privacy and security by controlling all apps' network activities. You can use Scudo to choose which apps are allowed to connect to the network. 
+Scudo is a host firewall, it helps protect your Mac computer’s network services from unwanted connections from remote computers and improves your privacy and security by controlling all apps' network activities. You can use Scudo to choose which apps are allowed to connect to the network. 
 When installing scudo, it'll ask you wich policy you want to use for inbound and outbound connexions. I personnaly use the **Ask** policy wich will ask for your authorisation for each system process or apps wanting to communicate. I recommend going through each process asking for network access and learn what they does (a quick query on any browser is enought to learn). This methods helps you choose allowed connection depending on your needs. Here is an example of process accessing the network that you could block : 
 - parsec-fbf / parsecd : Looking for match on the internet via Siri when using Spotlight
 
