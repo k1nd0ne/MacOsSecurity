@@ -16,7 +16,7 @@ Obviously a 100% secure systems doesn't exist but if you already have a good und
 ### Cleaning you installation. 
 If you want to start hardening your Mac, I recommend making a backup of your important files on an external hardrive with Time Machine for example and reinstalling your mac completly. 
 
-When booting into recovery mode for installation, format your disk and reinstall Mac Os in the latest version (BigSur at time of writting) with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (Go to Bitwarden section to see more about password managers). Also, refuse localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to to a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before.
+When booting into recovery mode for installation, format your disk and reinstall Mac Os in the latest version (BigSur at time of writting) with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (Go to Bitwarden section to see more about password managers). Also, refuse localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to perform a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before.
 
 ## Basic hardening features
 In this section I will walk you thought the features you can enable to harden your system.
