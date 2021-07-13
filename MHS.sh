@@ -29,9 +29,8 @@ Author : k1nd0ne
 #You can comment actions you don't want to take in the script routine function bellow :
 #Just comment the function refering to the action you don't want to take.
 script_routine () {
- #fileVault
- #EvictFileVault
- #
+ fileVault
+ EvictFileVault
  EndScriptTips
 }
 
@@ -55,7 +54,7 @@ EvictFileVault(){
 }
 
 EndScriptTips (){
-    echo "Script finished."
+    echo "Execution finished."
     echo "Consider setting a Firmware password."
     echo "See : https://support.apple.com/en-au/HT204455"
     echo "Please Reboot your machine."
