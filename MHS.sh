@@ -55,8 +55,6 @@ EvictFileVault(){
 
 EndScriptTips (){
     echo "Execution finished."
-    echo "Consider setting a Firmware password."
-    echo "See : https://support.apple.com/en-au/HT204455"
     echo "Please Reboot your machine."
 }
 
