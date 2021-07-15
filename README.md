@@ -1,7 +1,7 @@
 # MacOs Security Best Practice
 
 Author : k1nd0ne </br>
-Last Update : 13/07/2021
+Last Major Update : 13/07/2021
 
 ## Introduction
 If you are working with confidential data or just worry about your local data privacy it is important to take the proper actions to make your system secure.
