@@ -1,4 +1,4 @@
-# MacOs Hardening guide
+# MacOs Security Best Practice
 
 Author : k1nd0ne </br>
 Last Update : 13/07/2021
@@ -14,7 +14,7 @@ Obviously a 100% secure systems doesn't exist but if you already have a good und
 
 
 ### Cleaning you installation. 
-If you want to start hardening your Mac, I recommend making a backup of your important files on an external hardrive with Time Machine for example and reinstalling your mac completly. 
+If you want to start a fresh, I recommend making a backup of your important files on an external hardrive with Time Machine for example and reinstalling your mac completly. 
 
 When booting into recovery mode for installation, format your disk and reinstall Mac Os in the latest version (BigSur at time of writting) with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (Go to Bitwarden section to see more about password managers). Also, refuse localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to perform a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before.
 
@@ -33,7 +33,7 @@ We booting your system it is possible to use the MacOs firmware to boot on a usb
 Setting a firmware password different from your session password, prevent intruder from using this firmware with malicious intentions. See : https://support.apple.com/en-au/HT204455
 
 
-## Harding Apps
+## Apps
 
 In this section I will go thought the applications that I recommend using to harden your MacOs clean installation.
 
@@ -56,7 +56,7 @@ Bitwarden is an opensource password manager. Having strong passwords and differe
 You can obviously use any password manager you want. You can download bitwarden here : https://bitwarden.com/
 
 ### Browsing the internet
-Hardening your web-browser is important to have better privacy and preventing dataleaks.
+Having go security on your web-browser is important to have better privacy and preventing dataleaks.
 Here is a few extension you can use : 
 - Duckduckgo : A browser that respect your privacy
 - Ublock : Add-Blocker
