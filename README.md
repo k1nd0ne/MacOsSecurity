@@ -77,8 +77,7 @@ For more privacy you can also use TOR browser or a VPN solution.
 
 ## Backups 
 
-MacOS is becoming more and more intgrated with iCloud, which is generally a greatconvenience to normal users, but perceived as a potential data leak in some cases. You  should use an external encrypted hard drive time make regular backups with  **Time Machine**. I recommend when setting up your clean MacOs to do a backup which will act as a "snapshot" of your operating system default configuration. With this you won't have to reinstall all your apps and rebuild your Scudo rules for example. 
-
+MacOS is becoming more and more intgrated with iCloud, which is usually a great convenience to a normal user, but perceived as a potential data leak in some cases. You  should use an external encrypted disk and make regular backups with  **Time Machine**. I recommend when setting a clean MacOs to do a backup which will act as a "snapshot" of your operating system default configuration in case you want to restore it. With this you won't have to reinstall all your apps and rebuild the basic Scudo rules for example. 
 
 ## Going further 
 
