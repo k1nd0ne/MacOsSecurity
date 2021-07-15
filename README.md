@@ -28,6 +28,14 @@ Take a moment to read the script and be aware about what features will be enable
 - FileVault Eviction : A malicious attacker can dump your computer sleep memory and recover the filevault password. Prevent that by evicting it from the memory;
 - Power Management Policies : MacOs is by default proposing several powermanagement features, those should be disables to prevent hardware attacks using thoses mechanisms.
 
+#### Example of usage
+```
+user@macos$ git clone https://github.com/k1nd0ne/MacOsSecurity
+user@macos$ cd MacOsSecurity
+user@macos$ chmod +x MHS.sh
+user@macos$ ./MHS.sh
+```
+
 ### Setting up a Firmware password
 We booting your system it is possible to use the MacOs firmware to boot on a usb stick for example or enter the recovery mode to format your data / re-install mac os. 
 Setting a firmware password different from your session password, prevent intruder from using this firmware with malicious intentions. See : https://support.apple.com/en-au/HT204455
