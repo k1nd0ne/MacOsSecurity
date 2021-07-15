@@ -14,7 +14,7 @@ Obviously a 100% secure systems doesn't exist but if you already have a good und
 
 
 ### Cleaning you installation. 
-If you want to start a fresh, I recommend making a backup of your important files on an external hardrive with Time Machine for example and reinstalling your mac completly. 
+If you want to start a fresh, I recommend making a backup of your important files (on an external hardrive with Time Machine for example) and reinstalling your mac completly. 
 
 When booting into recovery mode for installation, format your disk and reinstall Mac Os in the latest version (BigSur at time of writting) with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (Go to Bitwarden section to see more about password managers). Also, refuse localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to perform a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before.
 
@@ -71,7 +71,7 @@ Here is a few extension you can use :
 - HTTPSEverywhere : Force websites to use https when possible.
 - Bitwarden : previously mentioned password manager web extension. 
 
-I Also recommand customizing your browser to not save cookies and history and configure it to be in private mode by default. 
+I Also recommend customizing your browser to not save cookies and history and configure it to be in private mode by default. 
 
 For more privacy you can also use TOR browser or a VPN solution.
 
@@ -82,6 +82,6 @@ MacOS is becoming more and more intgrated with iCloud, which is generally a grea
 
 ## Going further 
 
-If you are a system administrator working in an organisation using MacOs machines I recommand reading this paper which is more appropriate for hardening Mac in organisations : http://newosxbook.com/files/moxii3/AppendixA.pdf
+If you are a system administrator working in an organisation using MacOs machines I recommend reading this paper which is more appropriate for hardening Mac in organisations : http://newosxbook.com/files/moxii3/AppendixA.pdf
 
 I recommend checking it as a simple user also if you want to learn more about what you can do to harden your system.
