@@ -16,7 +16,7 @@ Obviously a 100% secure systems doesn't exist but if you already have a good und
 ### Cleaning you installation. 
 If you want to start a fresh, I recommend making a backup of your important files (on an external hardrive with Time Machine for example) and reinstalling your mac completly. 
 
-When booting into recovery mode for installation, format your disk and reinstall Mac Os in the latest version (BigSur at time of writting) with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (Go to Bitwarden section to see more about password managers). Also, refuse localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to perform a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before.
+When booting into recovery mode for installation, format your disk and reinstall MacOs with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (go to the **Bitwarden** section to see more about password managers). Also, do not enable localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to perform a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before reinstalling MacOs.
 
 ## Basic hardening features
 In this section I will walk you thought the features you can enable to harden your system.
@@ -25,7 +25,7 @@ In this section I will walk you thought the features you can enable to harden yo
 In this repository you will find a script named MHS.sh it contains a number of features you can enable to harden your system.
 Take a moment to read the script and be aware about what features will be enable. This script automate the activation of the following :
 - FileVault : Enable Disk Encryption : your disk will be encrypted and unreable without a password at boot;
-- FileVault Eviction : A malicious attacker can dump your computer sleep memory and recover the filevault password. Prevent that by evicting it from the memory;
+- FileVault Eviction : An attacker can dump your computer's sleep memory and recover the filevault password. Prevent that by evicting it from the memory;
 - Power Management Policies : MacOs is by default proposing several powermanagement features, those should be disables to prevent hardware attacks using thoses mechanisms.
 
 #### Example of usage
