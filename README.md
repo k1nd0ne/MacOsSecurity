@@ -6,23 +6,23 @@ Last Major Update : 13/07/2021
 ## Introduction
 If you are working with confidential data or just worry about your local data privacy it is important to take the proper actions to make your system secure.
 Having your machine stolen or hacked can happend and you should be prepared to be resilient to this kind of threats. Having a good education about the security risk is a big asset,
-however, 0day vulnerabilities are often discovered and having your machine stolen can expose your data from personal data to work related data.
+however, 0day vulnerabilities are often discovered and having your machine stolen can expose your data from personal to work related.
 
-This guide is made to improve your personnal privacy on MacOs Operating system giving you an overview of the features you can implement to harden your machine and have a stronger, healther and more secure environement.
+This guide is made to improve your personnal privacy on Mac operating system giving you an overview of the features you can implement to harden your machine and have a more secure environement.
 
-Obviously a 100% secure systems doesn't exist but if you already have a good understanding of cybersecurity risks and want to take a step futher into hardening your personal system then this guide is made for you !
+Obviously a 100% secure systems doesn't exist but if you already have a good understanding of cybersecurity risks and want to take a step futher into making your personal system more secure then this guide is made for you !
 
 
 ### Cleaning you installation. 
-If you want to start a fresh, I recommend making a backup of your important files (on an external hardrive with Time Machine for example) and reinstalling your mac completly. 
+If you want to start a fresh, I recommend making a backup of your important files (on an external hardrive with Time Machine for example) and reinstalling your mac completely. 
 
 When booting into recovery mode for installation, format your disk and reinstall MacOs with FileVault Enabled. You should not save your recovery password in the ICloud KeyChain, keep it in a password manager (go to the **Bitwarden** section to see more about password managers). Also, do not enable localisation, Siri, and privacy related options if you do not agree with some apple terms of services. The procedure to perform a clean installation of MacOs can be found here : https://support.apple.com/en-us/HT204904. Don't forget to erase your disk before reinstalling MacOs.
 
 ## Basic hardening features
-In this section I will walk you thought the features you can enable to harden your system.
+In this section I will walk you thought the features you can enable to make your system more secure and resilient.
 
 ### MacOs Hardening Script (MHS.sh) 
-In this repository you will find a script named MHS.sh it contains a number of features you can enable to harden your system.
+In this repository you will find a script named MHS.sh it contains a number of features you can enable to "harden" your system.
 Take a moment to read the script and be aware about what features will be enable. This script automate the activation of the following :
 - FileVault : Enable Disk Encryption : your disk will be encrypted and unreable without a password at boot;
 - FileVault Eviction : An attacker can dump your computer's sleep memory and recover the filevault password. Prevent that by evicting it from the memory;
