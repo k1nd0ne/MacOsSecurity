@@ -55,7 +55,7 @@ I'm not using spotlight for googleing and I don't want Siri's suggestions so it'
 Keep in mind that what is not authorized should be always blocked.
 **Some services and applications need to communicate over the network be aware when you are blocking such communications**
 
-Scudo is very easy to use, you can download for free but you'll have regular popups asking you buy the licence if you like the product. I recommend buying it to help the creator.
+Scudo is very easy to use, you can download for free but you'll have regular popups asking you buy the licence if you like the product, buy yourself a licence to help the creator.
 
 You can download scudo here : https://www.murusfirewall.com/scudo/
 
