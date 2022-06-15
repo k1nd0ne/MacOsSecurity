@@ -37,7 +37,7 @@ user@macos$ ./MHS.sh
 ```
 
 ### Setting up a Firmware password
-We booting your system it is possible to use the MacOs firmware to boot on a usb stick for example or enter the recovery mode to format your data / re-install mac os. 
+When booting your system, it is possible to use the MacOs firmware to boot on a usb stick for example or enter the recovery mode to format your data / re-install mac os. 
 Setting a firmware password different from your session password, prevent intruder from using this firmware with malicious intentions. See : https://support.apple.com/en-au/HT204455
 
 
